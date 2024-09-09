@@ -12,7 +12,7 @@ public class ProdutoTeste {
         p2.preco = 35.50;
         p2.desconto = 0.1;
 
-        double precoFinal1 = p1.precoComDesconto(0);
+        double precoFinal1 = p1.precoComDesconto();
         double precoFinal2 = p2.precoComDesconto(0.2);
 
         System.out.println("Preço com desconto: " + precoFinal2);

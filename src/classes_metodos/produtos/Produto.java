@@ -10,7 +10,10 @@ public class Produto {
         nome = nomeInicial;
     }
 
-    public double precoComDesconto(double descontoGerente){
+    public double precoComDesconto() {
+        return preco * (1 - desconto); }
+
+    public double precoComDesconto (double descontoGerente){
         return preco * (1 - (desconto + descontoGerente));
     }
 
